@@ -1,2 +1,4 @@
 // Ignore these Path
 /node_modules
+/.env
+/.prod.env
