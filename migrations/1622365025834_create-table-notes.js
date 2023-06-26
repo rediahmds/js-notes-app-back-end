@@ -2,7 +2,6 @@
 
 exports.shorthands = undefined;
 
-// create 'notes' table
 exports.up = (pgm) => {
   pgm.createTable('notes', {
     id: {
@@ -32,7 +31,6 @@ exports.up = (pgm) => {
   });
 };
 
-// drop 'notes' table
 exports.down = (pgm) => {
   pgm.dropTable('notes');
 };
